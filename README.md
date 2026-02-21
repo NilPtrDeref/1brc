@@ -4,7 +4,7 @@ This repository contains my Go implementation of the [One Billion Row Challenge]
 
 ## Performance Journey
 
-The challenge is a great way to explore Go's performance characteristics, from standard library usage to low-level optimizations like custom hash maps and manual I/O buffering. 
+The challenge is a great way to explore Go's performance characteristics, from standard library usage to low-level optimizations like custom hash maps and manual I/O buffering.
 
 I have structured my solution into several steps, each living in its own branch. This allows you to follow the progression from a naive implementation to a highly optimized one.
 
@@ -46,5 +46,6 @@ go run main.go generate -c 1000000000 -o measurements.txt
 To run the processing and measure the execution time:
 
 ```bash
-time go run main.go
+go build -o 1brc .
+time ./1brc
 ```
