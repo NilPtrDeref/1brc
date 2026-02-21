@@ -48,16 +48,3 @@ To run the processing and measure the execution time:
 ```bash
 time go run main.go
 ```
-
-## Running Tests
-
-Basic validation can be run using:
-
-```bash
-go test ./...
-```
-
-## References
-
-- [Original 1BRC Repository (Java)](https://github.com/gunnarmorling/1brc)
-- [The Go Performance Community](https://github.com/benhoyt/1brc) - Great resource for Go-specific 1BRC optimizations.
